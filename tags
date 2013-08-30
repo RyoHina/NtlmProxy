@@ -1,0 +1,299 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUTHOR_NTLM_1	httppc_ntlm.h	28;"	d
+AUTHOR_NTLM_2	httppc_ntlm.h	29;"	d
+AUTHOR_NTLM_SESSION	httppc_ntlm.h	30;"	d
+Decode	md4.c	/^static void Decode (output, input, len)$/;"	f	file:
+Decode	md5.c	/^static void Decode (output, input, len)$/;"	f	file:
+Encode	md4.c	/^static void Encode (output, input, len)$/;"	f	file:
+Encode	md5.c	/^static void Encode (output, input, len)$/;"	f	file:
+F	md4.c	58;"	d	file:
+F	md5.c	62;"	d	file:
+FF	md4.c	68;"	d	file:
+FF	md5.c	74;"	d	file:
+G	md4.c	59;"	d	file:
+G	md5.c	63;"	d	file:
+GG	md4.c	72;"	d	file:
+GG	md5.c	79;"	d	file:
+H	md4.c	60;"	d	file:
+H	md5.c	64;"	d	file:
+HH	md4.c	76;"	d	file:
+HH	md5.c	84;"	d	file:
+HMAC_MD5	hmac_md5.c	/^HMAC_MD5(text, text_len, key, key_len, digest)$/;"	f
+I	md5.c	65;"	d	file:
+II	md5.c	89;"	d	file:
+IN	arithmetic.h	9;"	d
+IN	httppc_ntlm.h	13;"	d
+IN	md.h	30;"	d
+IN	ntlm_proxy.h	10;"	d
+IN	test_httppc_connect.h	9;"	d
+IN	wei_util.h	7;"	d
+LOG	httppc_ntlm.c	2;"	d	file:
+LOG	httppc_ntlm_u.c	22;"	d	file:
+LOG	test_httppc_connect.c	7;"	d	file:
+MD4Final	md4.c	/^void MD4Final (digest, context)$/;"	f
+MD4Init	md4.c	/^void MD4Init (context)$/;"	f
+MD4String	md4.c	/^void MD4String (string,len,digest)$/;"	f
+MD4Transform	md4.c	/^static void MD4Transform (state, block)$/;"	f	file:
+MD4Update	md4.c	/^void MD4Update (context, input, inputLen)$/;"	f
+MD4_CTX	md.h	/^} MD4_CTX;$/;"	t	typeref:struct:__anon1
+MD4_memcpy	md4.c	/^static void MD4_memcpy (output, input, len)$/;"	f	file:
+MD4_memset	md4.c	/^static void MD4_memset (output, value, len)$/;"	f	file:
+MD5Final	md5.c	/^void MD5Final (digest, context)$/;"	f
+MD5Init	md5.c	/^void MD5Init (context)$/;"	f
+MD5String	md5.c	/^void MD5String (string,len,digest)$/;"	f
+MD5Transform	md5.c	/^static void MD5Transform (state, block)$/;"	f	file:
+MD5Update	md5.c	/^void MD5Update (context, input, inputLen)$/;"	f
+MD5_CTX	md.h	/^} MD5_CTX;$/;"	t	typeref:struct:__anon2
+MD5_memcpy	md5.c	/^static void MD5_memcpy (output, input, len)$/;"	f	file:
+MD5_memset	md5.c	/^static void MD5_memset (output, value, len)$/;"	f	file:
+NULL	ntlm_proxy.h	26;"	d
+NULL	test_httppc_connect.h	25;"	d
+OUT	arithmetic.h	13;"	d
+OUT	httppc_ntlm.h	17;"	d
+OUT	md.h	34;"	d
+OUT	ntlm_proxy.h	14;"	d
+OUT	wei_util.h	10;"	d
+PADDING	md4.c	/^static unsigned char PADDING[64] = {$/;"	v	file:
+PADDING	md5.c	/^static unsigned char PADDING[64] = {$/;"	v	file:
+POINTER	md.h	/^typedef unsigned char * POINTER;$/;"	t
+PRIVATE	httppc_ntlm.h	21;"	d
+PRIVATE	ntlm_proxy.h	18;"	d
+PRIVATE	test_httppc_connect.h	17;"	d
+PRIVATE	wei_util.h	13;"	d
+PROTOTYPES	md.h	45;"	d
+PROTO_LIST	md.h	62;"	d
+PROTO_LIST	md.h	65;"	d
+PUBLIC	httppc_ntlm.h	25;"	d
+PUBLIC	ntlm_proxy.h	22;"	d
+PUBLIC	test_httppc_connect.h	21;"	d
+ROTATE_LEFT	md4.c	64;"	d	file:
+ROTATE_LEFT	md5.c	69;"	d	file:
+S11	md4.c	29;"	d	file:
+S11	md5.c	29;"	d	file:
+S12	md4.c	30;"	d	file:
+S12	md5.c	30;"	d	file:
+S13	md4.c	31;"	d	file:
+S13	md5.c	31;"	d	file:
+S14	md4.c	32;"	d	file:
+S14	md5.c	32;"	d	file:
+S21	md4.c	33;"	d	file:
+S21	md5.c	33;"	d	file:
+S22	md4.c	34;"	d	file:
+S22	md5.c	34;"	d	file:
+S23	md4.c	35;"	d	file:
+S23	md5.c	35;"	d	file:
+S24	md4.c	36;"	d	file:
+S24	md5.c	36;"	d	file:
+S31	md4.c	37;"	d	file:
+S31	md5.c	37;"	d	file:
+S32	md4.c	38;"	d	file:
+S32	md5.c	38;"	d	file:
+S33	md4.c	39;"	d	file:
+S33	md5.c	39;"	d	file:
+S34	md4.c	40;"	d	file:
+S34	md5.c	40;"	d	file:
+S41	md5.c	41;"	d	file:
+S42	md5.c	42;"	d	file:
+S43	md5.c	43;"	d	file:
+S44	md5.c	44;"	d	file:
+T_NTLM_TYPE_1_MSG	httppc_ntlm.h	/^} T_NTLM_TYPE_1_MSG;$/;"	t	typeref:struct:ges_ntlm_type_1_message
+T_NTLM_TYPE_2_MSG	httppc_ntlm.h	/^}T_NTLM_TYPE_2_MSG;$/;"	t	typeref:struct:ges_ntlm_type_2_message
+T_NTLM_TYPE_3_MSG	httppc_ntlm.h	/^}T_NTLM_TYPE_3_MSG;$/;"	t	typeref:struct:ges_ntlm_type_3_message
+UINT	ntlm_proxy.h	30;"	d
+UINT	test_httppc_connect.h	29;"	d
+UINT2	md.h	/^typedef unsigned short int UINT2;$/;"	t
+UINT4	md.h	/^typedef unsigned long int UINT4;$/;"	t
+WEI_ARITHMETIC_H	arithmetic.h	6;"	d
+WEI_HTTPC_CONNECT_H	ntlm_proxy.h	7;"	d
+WEI_HTTPC_CONNECT_H	test_httppc_connect.h	6;"	d
+WEI_HTTPC_NTLM_H	httppc_ntlm.h	6;"	d
+WEI_MD_H	md.h	28;"	d
+WEI_UTIL_H	wei_util.h	5;"	d
+algorithm_des	arith_des.c	/^void algorithm_des(IN unsigned char * src, IN unsigned char * secrect,$/;"	f
+algorithm_des_56key	arith_des.c	/^void algorithm_des_56key(IN unsigned char * src, IN unsigned char * secrect,$/;"	f
+body	ntlm_proxy.c	/^	char *  body;$/;"	m	struct:s_wei_http_response	file:
+body	test_httppc_connect.c	/^/;"	m	struct:s_wei_http_response	file:
+bool	httppc_ntlm.h	32;"	d
+bool	ntlm_proxy.h	33;"	d
+bool	wei_util.h	15;"	d
+buffer	md.h	/^  unsigned char buffer[64];                         \/* input buffer *\/$/;"	m	struct:__anon1
+buffer	md.h	/^  unsigned char buffer[64];                         \/* input buffer *\/$/;"	m	struct:__anon2
+byte	httppc_ntlm.h	9;"	d
+cb64	arith_base64.c	/^static const char cb64[]="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/";$/;"	v	file:
+chrtoupper	arith_util.c	/^char chrtoupper(IN char a){$/;"	f
+code	ntlm_proxy.c	/^	int     code;$/;"	m	struct:s_wei_http_response	file:
+code	test_httppc_connect.c	/^/;"	m	struct:s_wei_http_response	file:
+context	httppc_ntlm.h	/^	byte			context[8];$/;"	m	struct:ges_ntlm_type_2_message
+count	md.h	/^  UINT4 count[2];        \/* number of bits, modulo 2^64 (lsb first) *\/$/;"	m	struct:__anon1
+count	md.h	/^  UINT4 count[2];        \/* number of bits, modulo 2^64 (lsb first) *\/$/;"	m	struct:__anon2
+create_nonce	httppc_ntlm.c	/^PRIVATE void create_nonce(OUT unsigned char * nonce){$/;"	f
+create_nonce	httppc_ntlm_u.c	/^/;"	f
+db64	arith_base64.c	/^static unsigned char db64[256] = {$/;"	v	file:
+decode_base64	arith_base64.c	/^void decode_base64(IN char *src, IN int src_len, OUT char *dst,OUT int * dst_len)$/;"	f
+dom	httppc_ntlm.h	/^	char			* dom;          \/\/ domain string (ASCII)$/;"	m	struct:ges_ntlm_type_1_message
+dom_len1	httppc_ntlm.h	/^	short			dom_len1;        \/\/ domain string length$/;"	m	struct:ges_ntlm_type_1_message
+dom_len2	httppc_ntlm.h	/^	short			dom_len2;        \/\/ domain string length$/;"	m	struct:ges_ntlm_type_1_message
+dom_off	httppc_ntlm.h	/^	unsigned int	dom_off;$/;"	m	struct:ges_ntlm_type_1_message
+domain	httppc_ntlm.h	/^	char			* domain;          \/\/ domain string (unicode UTF-16LE)$/;"	m	struct:ges_ntlm_type_3_message
+domain_allocation	httppc_ntlm.h	/^	short			domain_allocation;$/;"	m	struct:ges_ntlm_type_3_message
+domain_len	httppc_ntlm.h	/^	short			domain_len;$/;"	m	struct:ges_ntlm_type_3_message
+domain_offset	httppc_ntlm.h	/^	unsigned int	domain_offset;$/;"	m	struct:ges_ntlm_type_3_message
+encode_base64	arith_base64.c	/^void encode_base64(OUT char *dst, IN const char *src, IN int sz )$/;"	f
+encodeblock	arith_base64.c	/^static void encodeblock( unsigned char in[3], unsigned char out[4], int len )$/;"	f	file:
+false	httppc_ntlm.h	33;"	d
+false	ntlm_proxy.h	34;"	d
+flags	httppc_ntlm.h	/^	int				flags;           \/\/ 0x8201，有0x02008201$/;"	m	struct:ges_ntlm_type_2_message
+flags	httppc_ntlm.h	/^	unsigned int	flags;           \/\/ old:0xb203 new : 0xa208b207$/;"	m	struct:ges_ntlm_type_1_message
+flags	httppc_ntlm.h	/^	unsigned int    flags;           \/\/ 0x8201$/;"	m	struct:ges_ntlm_type_3_message
+ges_ntlm_type_1_message	httppc_ntlm.h	/^typedef struct ges_ntlm_type_1_message{$/;"	s
+ges_ntlm_type_2_message	httppc_ntlm.h	/^typedef struct ges_ntlm_type_2_message{$/;"	s
+ges_ntlm_type_3_message	httppc_ntlm.h	/^typedef struct ges_ntlm_type_3_message{$/;"	s
+getbit	arith_des.c	/^static unsigned char getbit(unsigned char a, int offset){$/;"	f	file:
+getkey	arith_des.c	/^static void getkey(IN OUT unsigned char * key,int offset){$/;"	f	file:
+header	ntlm_proxy.c	/^	char ** header;$/;"	m	struct:s_wei_http_response	file:
+header	test_httppc_connect.c	/^/;"	m	struct:s_wei_http_response	file:
+header_num	ntlm_proxy.c	/^	int     header_num;$/;"	m	struct:s_wei_http_response	file:
+header_num	test_httppc_connect.c	/^/;"	m	struct:s_wei_http_response	file:
+host	httppc_ntlm.h	/^	char			* host;         \/\/ host string (ASCII)$/;"	m	struct:ges_ntlm_type_1_message
+host	httppc_ntlm.h	/^	char			* host;         \/\/ host string (unicode UTF-16LE)$/;"	m	struct:ges_ntlm_type_3_message
+host_allocation	httppc_ntlm.h	/^	short			host_allocation;        \/\/ host string length$/;"	m	struct:ges_ntlm_type_3_message
+host_len	httppc_ntlm.h	/^	short			host_len;        \/\/ host string length$/;"	m	struct:ges_ntlm_type_3_message
+host_len1	httppc_ntlm.h	/^	short			host_len1;       \/\/ host string length$/;"	m	struct:ges_ntlm_type_1_message
+host_len2	httppc_ntlm.h	/^	short			host_len2;       \/\/ host string length$/;"	m	struct:ges_ntlm_type_1_message
+host_off	httppc_ntlm.h	/^	unsigned int	host_off;        \/\/ host string offset (always 0x20)$/;"	m	struct:ges_ntlm_type_1_message
+host_offset	httppc_ntlm.h	/^	unsigned int	host_offset;        \/\/ host string offset$/;"	m	struct:ges_ntlm_type_3_message
+httppc_domain	ntlm_proxy.c	/^static char * httppc_proxy_ip = NULL,* httppc_host = NULL,* httppc_domain = NULL, $/;"	v	file:
+httppc_domain	test_httppc_connect.c	/^/;"	v	file:
+httppc_host	ntlm_proxy.c	/^static char * httppc_proxy_ip = NULL,* httppc_host = NULL,* httppc_domain = NULL, $/;"	v	file:
+httppc_host	test_httppc_connect.c	/^/;"	v	file:
+httppc_passwd	ntlm_proxy.c	/^            * httppc_user = NULL, * httppc_passwd = NULL;$/;"	v	file:
+httppc_passwd	test_httppc_connect.c	/^/;"	v	file:
+httppc_proxy_ip	ntlm_proxy.c	/^static char * httppc_proxy_ip = NULL,* httppc_host = NULL,* httppc_domain = NULL, $/;"	v	file:
+httppc_proxy_ip	test_httppc_connect.c	/^/;"	v	file:
+httppc_proxy_port	ntlm_proxy.c	/^static UINT httppc_proxy_port;$/;"	v	file:
+httppc_proxy_port	test_httppc_connect.c	/^/;"	v	file:
+httppc_proxyaddr	ntlm_proxy.c	/^PRIVATE static struct sockaddr_in httppc_proxyaddr;$/;"	v	typeref:struct:sockaddr_in	file:
+httppc_proxyaddr	test_httppc_connect.c	/^/;"	v	typeref:struct:sockaddr_in	file:
+httppc_sock	ntlm_proxy.c	/^static int httppc_sock = -1;$/;"	v	file:
+httppc_sock	test_httppc_connect.c	/^/;"	v	file:
+httppc_user	ntlm_proxy.c	/^            * httppc_user = NULL, * httppc_passwd = NULL;$/;"	v	file:
+httppc_user	test_httppc_connect.c	/^/;"	v	file:
+initail_permutation	arith_des.c	/^static void initail_permutation(IN unsigned char * data,IN int * schedule, IN int num,$/;"	f	file:
+inverse_ip_p	arith_des.c	/^static int inverse_ip_p[64] = {$/;"	v	file:
+ip_56key_seq	arith_des.c	/^static int ip_56key_seq[] ={$/;"	v	file:
+ip_data_seq	arith_des.c	/^static int ip_data_seq[] = {$/;"	v	file:
+ip_e	arith_des.c	/^static int ip_e[] = {$/;"	v	file:
+ip_key	arith_des.c	/^static int ip_key[] ={$/;"	v	file:
+ip_key_seq	arith_des.c	/^static int ip_key_seq[] ={$/;"	v	file:
+ip_p	arith_des.c	/^static int ip_p[] = {$/;"	v	file:
+is_httppc_connected	ntlm_proxy.c	/^static bool is_httppc_connected = false;$/;"	v	file:
+is_httppc_connected	test_httppc_connect.c	/^/;"	v	file:
+is_suppoort_ntlm	ntlm_proxy.c	/^	bool    is_suppoort_ntlm;$/;"	m	struct:s_wei_http_response	file:
+is_suppoort_ntlm	test_httppc_connect.c	/^/;"	m	struct:s_wei_http_response	file:
+key_offset	arith_des.c	/^static int key_offset[] = {1, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 1};$/;"	v	file:
+lm_hash	arith_lm_hash.c	/^void lm_hash(IN char * src, OUT unsigned char * dst, OUT int * dst_len){$/;"	f
+lm_magic	arith_lm_hash.c	/^static unsigned char lm_magic[] = { 0x4B, 0x47, 0x53, 0x21, 0x40, 0x23, 0x24, 0x25 };$/;"	v	file:
+lm_resp	httppc_ntlm.h	/^	byte			* lm_resp;      \/\/ LanManager response$/;"	m	struct:ges_ntlm_type_3_message
+lm_resp_allocation	httppc_ntlm.h	/^	short			lm_resp_allocation;     \/\/ LanManager response length (always 0x18)$/;"	m	struct:ges_ntlm_type_3_message
+lm_resp_len	httppc_ntlm.h	/^	short			lm_resp_len;     \/\/ LanManager response length (always 0x18)$/;"	m	struct:ges_ntlm_type_3_message
+lm_resp_offset	httppc_ntlm.h	/^	unsigned int    lm_resp_offset;     \/\/ LanManager response offset$/;"	m	struct:ges_ntlm_type_3_message
+main	ntlm_proxy.c	/^int main(int argc,char* argv[] ){$/;"	f
+msg_len	httppc_ntlm.h	/^	unsigned int	msg_len;$/;"	m	struct:ges_ntlm_type_3_message
+nonce	httppc_ntlm.h	/^	byte			nonce[8];        \/\/ nonce or challenge$/;"	m	struct:ges_ntlm_type_2_message
+nt_hash	arith_nt_hash.c	/^void nt_hash(IN char * src, IN int is_unicode,OUT unsigned char * dst, OUT int * dst_len){$/;"	f
+nt_resp	httppc_ntlm.h	/^	byte			* nt_resp;      \/\/ NT response$/;"	m	struct:ges_ntlm_type_3_message
+nt_resp_allocation	httppc_ntlm.h	/^	short			nt_resp_allocation;     \/\/ NT response length (always 0x18)$/;"	m	struct:ges_ntlm_type_3_message
+nt_resp_len	httppc_ntlm.h	/^	short			nt_resp_len;     \/\/ NT response length (always 0x18)$/;"	m	struct:ges_ntlm_type_3_message
+nt_resp_offset	httppc_ntlm.h	/^	unsigned int    nt_resp_offset;     \/\/ NT response offset$/;"	m	struct:ges_ntlm_type_3_message
+ntlmv1_response	arith_ntlm_v1.c	/^void ntlmv1_response(IN char * passwd, IN unsigned char * chanllenge,$/;"	f
+ntlmv2_response	arith_ntlm_v2.c	/^void ntlmv2_response(IN char * passwd, IN char * user_name,IN char * domain,$/;"	f
+ntlmv2_session_response	arith_ntlm_session_v2.c	/^void ntlmv2_session_response(IN char * passwd, IN unsigned char * chanllenge,$/;"	f
+ntlmv2_unicode	arith_ntlm_v2.c	/^static void ntlmv2_unicode(IN char * user_name, IN char * domain,$/;"	f	file:
+os_version	httppc_ntlm.h	/^	char            * os_version;	\/\/ Options 8字节的OS version 信息，但是我们不使用$/;"	m	struct:ges_ntlm_type_1_message
+parsebit	arith_des.c	/^static void parsebit(IN unsigned char * data,OUT unsigned char * dst,IN int dst_len){$/;"	f	file:
+protocol	httppc_ntlm.h	/^	byte			protocol[8];     \/\/ 'N', 'T', 'L', 'M', 'S', 'S', 'P', '\\0'$/;"	m	struct:ges_ntlm_type_3_message
+protocol	httppc_ntlm.h	/^	char			protocol[8];     \/\/ 'N', 'T', 'L', 'M', 'S', 'S', 'P', '\\0'$/;"	m	struct:ges_ntlm_type_1_message
+protocol	httppc_ntlm.h	/^	char			protocol[8];     \/\/ 'N', 'T', 'L', 'M', 'S', 'S', 'P', '\\0'$/;"	m	struct:ges_ntlm_type_2_message
+proxy_authenticate	ntlm_proxy.c	/^	char *  proxy_authenticate;$/;"	m	struct:s_wei_http_response	file:
+proxy_authenticate	test_httppc_connect.c	/^/;"	m	struct:s_wei_http_response	file:
+proxy_connection	ntlm_proxy.c	/^	char *  proxy_connection;$/;"	m	struct:s_wei_http_response	file:
+proxy_connection	test_httppc_connect.c	/^/;"	m	struct:s_wei_http_response	file:
+s1	arith_des.c	/^static unsigned char s1[64] \/*[4][16]*\/ = {$/;"	v	file:
+s2	arith_des.c	/^static unsigned char s2[64] \/*[4][16]*\/ = {$/;"	v	file:
+s3	arith_des.c	/^static unsigned char s3[64] \/*[4][16]*\/ = {$/;"	v	file:
+s4	arith_des.c	/^static unsigned char s4[64] \/*[4][16]*\/ = {$/;"	v	file:
+s5	arith_des.c	/^static unsigned char s5[64] \/*[4][16]*\/ = {$/;"	v	file:
+s6	arith_des.c	/^static unsigned char s6[64] \/*[4][16]*\/ = {$/;"	v	file:
+s7	arith_des.c	/^static unsigned char s7[64] \/*[4][16]*\/ = {$/;"	v	file:
+s8	arith_des.c	/^static unsigned char s8[64] \/*[4][16]*\/ = {$/;"	v	file:
+s_box_function	arith_des.c	/^static void s_box_function(IN unsigned char * data,IN unsigned char * sbox,OUT unsigned char * dst){$/;"	f	file:
+s_wei_http_response	ntlm_proxy.c	/^struct s_wei_http_response{$/;"	s	file:
+s_wei_http_response	test_httppc_connect.c	/^/;"	s	file:
+state	md.h	/^  UINT4 state[4];                                   \/* state (ABCD) *\/$/;"	m	struct:__anon1
+state	md.h	/^  UINT4 state[4];                                   \/* state (ABCD) *\/$/;"	m	struct:__anon2
+storebit	arith_des.c	/^static void storebit(IN unsigned char * data, IN int data_len, OUT unsigned char * dst){$/;"	f	file:
+str_to_key	arith_lm_hash.c	/^static void str_to_key ( IN const unsigned char *str, OUT unsigned char *key )$/;"	f	file:
+strtoupper	arith_util.c	/^char * strtoupper(IN OUT char * a){$/;"	f
+target_info	httppc_ntlm.h	/^	byte *			target_info;$/;"	m	struct:ges_ntlm_type_2_message
+target_info_alloction	httppc_ntlm.h	/^	short			target_info_alloction;$/;"	m	struct:ges_ntlm_type_2_message
+target_info_len	httppc_ntlm.h	/^	short			target_info_len;$/;"	m	struct:ges_ntlm_type_2_message
+target_info_offset	httppc_ntlm.h	/^	unsigned int	target_info_offset;$/;"	m	struct:ges_ntlm_type_2_message
+target_name	httppc_ntlm.h	/^	byte *			target_name;$/;"	m	struct:ges_ntlm_type_2_message
+target_name_allocation	httppc_ntlm.h	/^	short			target_name_allocation;$/;"	m	struct:ges_ntlm_type_2_message
+target_name_len	httppc_ntlm.h	/^	short			target_name_len;$/;"	m	struct:ges_ntlm_type_2_message
+target_name_offset	httppc_ntlm.h	/^	unsigned int	target_name_offset;$/;"	m	struct:ges_ntlm_type_2_message
+true	httppc_ntlm.h	34;"	d
+true	ntlm_proxy.h	35;"	d
+type	httppc_ntlm.h	/^	unsigned int	type;            \/\/ 0x01$/;"	m	struct:ges_ntlm_type_1_message
+type	httppc_ntlm.h	/^	unsigned int	type;$/;"	m	struct:ges_ntlm_type_2_message
+type	httppc_ntlm.h	/^	unsigned int	type;$/;"	m	struct:ges_ntlm_type_3_message
+unicode	arith_util.c	/^void unicode(IN char * src, IN int src_len, OUT char * dst, OUT int * dst_len){$/;"	f
+upper_step	arith_util.c	/^static unsigned char upper_step = 'a' - 'A';$/;"	v	file:
+user	httppc_ntlm.h	/^	char			* user;         \/\/ username string (unicode UTF-16LE)$/;"	m	struct:ges_ntlm_type_3_message
+user_allocation	httppc_ntlm.h	/^	short			user_allocation;        \/\/ username string length$/;"	m	struct:ges_ntlm_type_3_message
+user_len	httppc_ntlm.h	/^	short			user_len;        \/\/ username string length$/;"	m	struct:ges_ntlm_type_3_message
+user_offset	httppc_ntlm.h	/^	unsigned int    user_offset;        \/\/ username string offset$/;"	m	struct:ges_ntlm_type_3_message
+version	ntlm_proxy.c	/^	char    version[10];$/;"	m	struct:s_wei_http_response	file:
+version	test_httppc_connect.c	/^/;"	m	struct:s_wei_http_response	file:
+wei_get_domain_ip	ntlm_proxy.c	/^PRIVATE char* wei_get_domain_ip(char* ip_str){$/;"	f
+wei_get_domain_ip	test_httppc_connect.c	/^/;"	f
+wei_http_analyse_get_value	ntlm_proxy.c	/^PRIVATE char * wei_http_analyse_get_value(IN struct s_wei_http_response * response, IN const char * name,IN int index){$/;"	f
+wei_http_analyse_get_value	test_httppc_connect.c	/^/;"	f
+wei_http_analyse_response_startline	ntlm_proxy.c	/^PRIVATE bool wei_http_analyse_response_startline(OUT struct s_wei_http_response * response,IN OUT char * startline){$/;"	f
+wei_http_analyse_response_startline	test_httppc_connect.c	/^/;"	f
+wei_http_parse_reponse	ntlm_proxy.c	/^PRIVATE bool wei_http_parse_reponse(IN char * buf,IN int buf_len,OUT struct  s_wei_http_response * http_response){$/;"	f
+wei_http_parse_reponse	test_httppc_connect.c	/^/;"	f
+wei_httppc_close_connect	ntlm_proxy.c	/^PRIVATE void wei_httppc_close_connect(int * sock){$/;"	f
+wei_httppc_close_connect	test_httppc_connect.c	/^/;"	f
+wei_httppc_connect	ntlm_proxy.c	/^int wei_httppc_connect(char * remote_ip ,int remote_port){$/;"	f
+wei_httppc_connect	test_httppc_connect.c	/^/;"	f
+wei_httppc_create_connect	ntlm_proxy.c	/^PRIVATE int wei_httppc_create_connect(){$/;"	f
+wei_httppc_create_connect	test_httppc_connect.c	/^/;"	f
+wei_is_httppc_connected	ntlm_proxy.c	/^PUBLIC bool wei_is_httppc_connected(){$/;"	f
+wei_is_httppc_connected	test_httppc_connect.c	/^/;"	f
+wei_ntlm_decode_type2	httppc_ntlm.c	/^bool wei_ntlm_decode_type2(IN bool is_little_endian,IN char * info, OUT T_NTLM_TYPE_2_MSG * type2){$/;"	f
+wei_ntlm_decode_type2	httppc_ntlm_u.c	/^/;"	f
+wei_ntlm_make_type1	httppc_ntlm.c	/^PRIVATE void wei_ntlm_make_type1(IN bool is_little_endian,IN char * domain,IN char * name,$/;"	f
+wei_ntlm_make_type1	httppc_ntlm_u.c	/^/;"	f
+wei_ntlm_make_type1_base64	httppc_ntlm.c	/^void wei_ntlm_make_type1_base64(IN bool is_little_endian,IN char * domain,IN char * host_name,$/;"	f
+wei_ntlm_make_type1_base64	httppc_ntlm_u.c	/^/;"	f
+wei_ntlm_make_type3_base64	httppc_ntlm.c	/^bool wei_ntlm_make_type3_base64(IN bool is_little_endian,IN char * domain ,IN char * host, IN char * user, $/;"	f
+wei_ntlm_make_type3_base64	httppc_ntlm_u.c	/^/;"	f
+wei_reset_proxy_info	ntlm_proxy.c	/^void wei_reset_proxy_info(){$/;"	f
+wei_reset_proxy_info	test_httppc_connect.c	/^/;"	f
+wei_set_proxy_info	ntlm_proxy.c	/^bool wei_set_proxy_info(IN char * the_proxy_ip,IN UINT the_proxy_port,IN char * the_host,$/;"	f
+wei_set_proxy_info	test_httppc_connect.c	/^/;"	f
+wei_util_check_allnum	wei_util.c	/^int wei_util_check_allnum(char* a){$/;"	f
+wei_util_get_str_num	wei_util.c	/^int wei_util_get_str_num(char* buf, char* ch){$/;"	f
+wei_util_replace_all	wei_util.c	/^int  wei_util_replace_all(char* str,const char* a, const char* b){$/;"	f
+wei_util_split	wei_util.c	/^int wei_util_split(char* buf, char* ch,int num ,char** dst){$/;"	f
+wei_util_str_compare	wei_util.c	/^int wei_util_str_compare(const char* a,const char* b ,int isCase,int length){$/;"	f
+wei_util_str_compare_trim	wei_util.c	/^int wei_util_str_compare_trim(char* a, char* b ,int is_case){$/;"	f
+wei_util_str_trim	wei_util.c	/^void wei_util_str_trim(char* a){$/;"	f
+xorbit	arith_des.c	/^static void xorbit(IN unsigned char * a, IN unsigned char * b ,IN int len,$/;"	f	file:
+zero	httppc_ntlm.h	/^	unsigned int	zero;$/;"	m	struct:ges_ntlm_type_3_message
